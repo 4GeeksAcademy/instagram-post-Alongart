@@ -1,0 +1,110 @@
+
+body {
+    background-color: black;
+    font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+.post {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+
+.post-img {
+    position: absolute;
+    top: 65px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.image {
+    width: 400px;
+    height: 320px;
+}
+
+.post-footer {
+    position: absolute;
+    top: 400px;
+    display:flex;
+} 
+
+.html5 {                    /* html5 image + title + subtitle */
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 13px;
+    display: flex;
+} 
+
+.html5 p:first-of-type {    /* title */
+    margin-left: 10px;
+    font-weight:bold;
+    position: relative;
+    top: -22px;
+    font-size: larger;
+    
+}
+
+.html5 p:last-of-type {     /* sub-title */
+    position:relative;
+    left: -55px;
+}
+
+.menuButton {
+    float: right;
+    margin: 20px;
+    
+}
+
+.reactions {
+    display: flex;
+    position: absolute;
+    margin: 10px;
+}
+
+.reactions i {
+    margin: 5px;
+    top: 400px;
+}
+
+.reactions i:last-of-type{  /* bookmark / save button */
+    margin-left: 250px;
+}
+
+.likes {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.post-footer p {
+    position: absolute;
+    top: 70px;
+    margin-left: 10px;
+    font-size: larger;
+    
+    
+    
+}
+
+
+
+/* attempt at cropping original post photo.
+    .post-img {
+    position: absolute;
+    top: 60px;
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+    width: 50%;
+    height: 210%;   
+    margin: -60px 0px 0px 75px;    
+} */
