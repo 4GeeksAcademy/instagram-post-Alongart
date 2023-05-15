@@ -5,10 +5,19 @@ body {
     font-size: small;
 }
 
+.wrapper {
+    margin:auto;
+    width: 500px;
+    height: 1000px;
+    
+}
+
 .post {
     background-color: white;
     width: 400px;
     height: 600px;
+    position: relative;
+    top: 400px;
 }
 
 
@@ -35,7 +44,7 @@ body {
     float: left;
     width: 100px;
     height: 100px;
-    margin: 13px;
+    margin: 15px;
     display: flex;
 } 
 
